@@ -1,16 +1,12 @@
-# text_search
+# Flutter ML based text finder
 
-A new Flutter project.
 
-## Getting Started
+For the iOS platform add to the `ios/Podfile` file:
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```ruby
+# Add language package you need to use
+pod 'GoogleMLKit/TextRecognitionChinese', '~> 3.2.0'
+pod 'GoogleMLKit/TextRecognitionDevanagari', '~> 3.2.0'
+pod 'GoogleMLKit/TextRecognitionJapanese', '~> 3.2.0'
+pod 'GoogleMLKit/TextRecognitionKorean', '~> 3.2.0'
+```
